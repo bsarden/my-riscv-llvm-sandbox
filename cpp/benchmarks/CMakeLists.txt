@@ -1,0 +1,1 @@
+add_executable(hello_benchmark hello_benchmark.cpp)

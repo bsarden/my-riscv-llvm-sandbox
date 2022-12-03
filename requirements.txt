@@ -1,0 +1,5 @@
+# Build
+cmake
+ninja
+# Dev
+pre-commit
