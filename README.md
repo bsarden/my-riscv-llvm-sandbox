@@ -1,4 +1,4 @@
-# my-llvm-sandbox
+# my-riscv-llvm-sandbox
 
 A collection of boostrap scripts to get a working riscv toolchain on a pinned version 
 of LLVM. Useful for academic studies / quick projects.
