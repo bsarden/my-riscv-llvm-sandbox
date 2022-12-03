@@ -53,7 +53,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # are handled.
 ARG UID=1000
 ARG GID=1000
-ARG UNAME=parch-user
+ARG UNAME=riscv-sandbox-user
 RUN groupadd --gid ${GID} ${UNAME} && \
     useradd --create-home --no-log-init --uid ${UID} --gid ${UNAME} \
         ${UNAME} && \

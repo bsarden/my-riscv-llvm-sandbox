@@ -37,7 +37,7 @@ Here are instructions for building with the riscv64 toolchain.
 ```shell
 # Build the `riscv-llvm-sandbox:latest` docker image
 ./build_tools/docker/docker_build.sh
-# Drop into a container as `parch-user` with your uid/gid.
+# Drop into a container as `riscv-sandbox-user` with your uid/gid.
 ./build_tools/docker/docker_run.sh riscv-llvm-sandbox:latest
 # Build and install our forked version of llvm/clang
 ./build_tools/cmake/build_and_install_clang_riscv64.sh
